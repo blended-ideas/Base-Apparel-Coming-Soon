@@ -31,21 +31,30 @@
                 Hello fellow shoppers! We're currently building our new fashion store.
                 Add your email below to stay up-to-date with announcements and our launch deals.
             </p>
-            <div>
-                <input type="text" class="emailInput" placeholder="Email Address">
-                <button class="inputButton">
-                    <img src="images/icon-arrow.svg" alt="Arrow Icon">
-                </button>
-            </div>
+            <form onsubmit="validateForm(); return false" action="#">
+                <div>
+                    <input type="text" class="emailInput" placeholder="Email Address">
+                    <img src="images/icon-error.svg" alt="Error" class="errorIcon">
+                    <button class="inputButton" type="button" onclick="validateForm()">
+                        <img src="images/icon-arrow.svg" alt="Arrow Icon">
+                    </button>
+                </div>
+                <div class="errorMessage">
+                    Please provide a valid email
+                </div>
+            </form>
 
             <div>
                 <p class="attribution">
-                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                    Mentor</a>.
                     Coded by <a href="#">Your Name Here</a>.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
+<script src="scripts.js"></script>
 </body>
 </html>

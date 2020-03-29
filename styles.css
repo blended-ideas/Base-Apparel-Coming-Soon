@@ -174,7 +174,7 @@ body {
 
 .emailInput {
     flex: 1;
-    margin-right: -6rem;
+    margin-right: -8rem;
     padding: 1rem 2.5rem 1rem;
     border: solid 1px var(--desaturated-red);
     border-radius: 10rem;
@@ -193,15 +193,22 @@ body {
 
 .inputButton {
     position: relative;
-    top: 5px;
+    top: 4px;
     width: 6.4rem;
-    height: 3.2rem;
+    height: 3.3rem;
     transition: 0.2s;
     border: 0;
     border-radius: 10rem;
     background-image: var(--gradient2);
     box-shadow: 1px 9px 19px rgba(206, 150, 150, 0.7);
     cursor: pointer;
+    outline: none;
+}
+
+.inputButton:hover {
+    transform: scale(1.2);
+    /*background: var(--desaturated-red);*/
+    filter: brightness(125%);
 }
 
 .attribution {
@@ -211,4 +218,19 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+.errorMessage {
+    font-size: 0.8rem;
+    color: var(--soft-red);
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.errorIcon {
+    position: relative;
+    top: 7px;
+    opacity: 0;
 }

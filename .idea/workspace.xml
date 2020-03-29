@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc96278e-4abf-4b87-968b-f4c668d0d94c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,6 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585228438008</updated>
       <workItem from="1585228443386" duration="10525000" />
+      <workItem from="1585312589874" duration="199000" />
+      <workItem from="1585468658866" duration="1709000" />
     </task>
     <servers />
   </component>
@@ -71,10 +74,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="228" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585243354922" />
-    <state x="301" y="175" width="837" height="550" key="find.popup" timestamp="1585240818169">
+    <state x="301" y="197" width="842" height="550" key="find.popup" timestamp="1585470084835">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="175" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585240818169" />
+    <state x="301" y="197" width="842" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585470084835" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585234631047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
