@@ -1,5 +1,8 @@
 # Frontend Mentor - Base Apparel coming soon page
 
+> Part of [Florin Pop's](https://twitter.com/florinpop1705) #7Days7Websites Challenge - Day 2.
+
+
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
